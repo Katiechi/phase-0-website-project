@@ -4,8 +4,8 @@
     font-family: century Gothic;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/7.jpg);
-    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/home.jpg);
+    height: 250vh;
     background-size: cover;
     background-position: center;
 }
@@ -64,6 +64,7 @@ ul li.c_active a{
 .main{
     max-width: 1200px;
     margin: auto;
+    
 }
 
 .title{
@@ -89,9 +90,14 @@ ul li.c_active a{
     transform: translate(-50%,-50%);
 }
 
-.button #academics_paragraph{
+.butto{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-10%);
     color: #fff;
-    font-size: 20px;
+    line-height: 2rem;
+    font-size: 150%;
 }
 
 .btn{
@@ -105,4 +111,12 @@ ul li.c_active a{
 .btn:hover{
     background-color: #fff;
     color: #000;
+}
+
+
+  .button #academics_paragraph{
+    color: #fff;
+    font-size: 20px; 
+    font-family: sans-serif;
+    
 }
