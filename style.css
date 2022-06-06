@@ -38,6 +38,22 @@ ul li.active a{
     background-color: #fff;
     color: #000;
 }
+ul li.s_active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li.g_active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li.a_active a{
+    background-color: #fff;
+    color: #000;
+}
+ul li.c_active a{
+    background-color: #fff;
+    color: #000;
+}
 
 .logo img{
     float: left;
@@ -57,6 +73,10 @@ ul li.active a{
     transform: translate(-50%,-50%);
 }
 
+.title#academics{
+    top: 20%;
+}
+
 .title h1{
     color: #fff;
     font-size: 50px;
@@ -67,6 +87,11 @@ ul li.active a{
     top: 62%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.button #academics_paragraph{
+    color: #fff;
+    font-size: 20px;
 }
 
 .btn{
